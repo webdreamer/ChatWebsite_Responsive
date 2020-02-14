@@ -1,0 +1,170 @@
+.buy-credits-content {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.buy-credits-title {
+    font-family: Nunito;
+    font-size: 2.7vw;
+    color: #eec680;
+    margin: 5vh 0;
+}
+
+.buy-credits-title span {
+    margin-left: 0.6vh;
+}
+
+.buy-credits-check {
+    width: 88%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 5vh;
+    margin: 5vh auto;
+    transition-duration: 0.3s;
+}
+.buy-credits-check:hover {
+    background-color: #eee;
+    transform: scale(1.02);
+    box-shadow: 0px 0px 3px 3px #fff;
+}
+.buy-credits-cost,
+.buy-credits-number,
+.buy-credits-btn {
+    font-family: Nunito;
+    font-weight: 800;
+    padding: 10px 4vh;
+}
+
+.buy-credits-cost {
+    color: #ff5c00;
+    font-size: 28px;
+}
+
+.buy-credits-number {
+    color: #ff5c00;
+    font-size: 28px;
+    margin-right: 4vh;
+}
+
+.buy-credits-btn {
+    color: #eee;
+    font-size: 24px;
+    font-weight: 500;
+    background-color: #ff5c00;
+    border-radius: 0 5vh 5vh 0;
+    padding-left: 2vh;
+    transition-duration: 0.3s;
+}
+
+/* .buy-credits-btn:hover {
+    background-color: #c25c30;
+} */
+
+
+/* // Small devices (landscape phones, 576px and up) */
+
+@media (max-width: 576px) {
+    .buy-credits-content {
+        width: 92%;
+        margin: auto;
+        text-align: center;
+    }
+    .buy-credits-cost,
+    .buy-credits-number,
+    .buy-credits-btn {
+        
+        font-size: 14px;
+        padding: 7px 1.5vh;
+    }
+    .buy-credits-btn {
+        padding-left: 0.5vh;
+    }
+    .buy-credits-title {
+        font-size: 6vw;
+    }
+    .buy-credits-number {
+        margin-right: 2vh;
+    }
+    .buy-credits-check {
+        width: 95%;
+    }
+}
+
+
+/* // Medium devices (tablets, 768px and up) */
+
+@media (min-width: 576px) and (max-width: 768px) {
+    .buy-credits-cost,
+    .buy-credits-number,
+    .buy-credits-btn {
+        
+        font-size: 20px;
+        padding: 5px 1vh;
+    }
+    .buy-credits-btn {
+        padding-left: 0.5vh;
+    }
+    .buy-credits-title {
+        font-size: 3.1vw;
+    }
+    .buy-credits-number {
+        margin-right: 2vh;
+    }
+    .buy-credits-check {
+        width: 92%;
+    }
+}
+
+
+/* // Large devices (desktops, 992px and up) */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .buy-credits-cost,
+    .buy-credits-number,
+    .buy-credits-btn {
+        
+        font-size: 20px;
+        padding: 5px 1vh;
+    }
+    .buy-credits-btn {
+        padding-left: 0.5vh;
+    }
+    .buy-credits-title {
+        font-size: 3.1vw;
+    }
+    .buy-credits-number {
+        margin-right: 2vh;
+    }
+    .buy-credits-check {
+        width: 92%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: auto;
+        background-color: #fff;
+        border-radius: 5vh;
+        margin: 5vh auto;
+    }
+}
+
+
+/* // Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width: 992px) and (max-width: 1400px) {
+    .buy-credits-cost,
+    .buy-credits-number,
+    .buy-credits-btn {
+        
+        font-size: 20px;
+        padding: 8px 2vh;
+    }
+    .buy-credits-btn {
+        padding-left: 1vh;
+    }
+}
+
+@media (min-width: 1400px) {}

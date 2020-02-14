@@ -1,0 +1,291 @@
+.edit-profile-content {
+    width: 75%;
+    margin: auto;
+    justify-content: center;
+    color: #fff;
+    margin-top: 5vh;
+}
+
+.epro-input-content {
+    width: 100%;
+}
+
+.epro-input-photo {
+    width: 25%;
+    display: inline-block;
+    position: relative;
+    margin-top: 80px;
+}
+
+.epro-input-icon {
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    left: 180px;
+    background-color: #eec680;
+    border-radius: 50%;
+    padding-top: 4px;
+    color: #404040;
+    transition-duration: 0.3s;
+    vertical-align: top;
+    text-align: center;
+    font-size: 18px;
+}
+
+.epro-input-icon:hover {
+    transform: scale(1.2);
+}
+
+.epro-input-area img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: solid 4px #eec680;
+    margin-left: 20px;
+}
+
+.epro-input-info {
+    width: 72%;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 20px;
+    /* margin-top: 30px; */
+}
+
+.epro-input-info-left, .epro-input-info-right {
+    display: inline-block;
+}
+
+.epro-input-info-right {
+    margin-left: 10%;
+    margin-bottom: 20px;
+}
+
+.epro-input-info-left {
+    vertical-align: top;
+    margin-top: 120px;
+}
+
+.epro-about-title {
+    font-family: Nunito;
+    font-size: 28px;
+    color: #eec680;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.epro-input-name, .epro-input-age {
+    margin-bottom: 40px;
+}
+
+.epro-input-name span {
+    margin-right: 15px;
+    font-family: Nunito;
+    font-size: 24px;
+    color: #eec680;
+    font-weight: 400;
+}
+
+.epro-input-age span {
+    margin-right: 36px;
+    font-family: Nunito;
+    font-size: 24px;
+    color: #eec680;
+}
+
+.epro-input-info input {
+    width: 200px;
+    font-family: Nunito;
+    font-size: 18px;
+    color: #333;
+    padding: 5px 15px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    transition-duration: 0.3s;
+}
+
+.epro-input-info input:focus {
+    box-shadow: 0px 0px 3px 3px #888888;
+}
+
+.epro-save-btn button {
+    margin-left: 120px;
+    background-color: #ddd;
+    font-family: Nunito;
+    font-size: 20px;
+    color: #404040;
+    padding: 5px 30px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    transition-duration: 0.3s;
+}
+
+.epro-save-btn button:hover {
+    background-color: #aaa;
+    box-shadow: 0px 0px 3px 3px #fff;
+    transform: scale(1.05);
+}
+
+.epro-select-img-content {
+    width: 100%;
+}
+
+.epro-select-public-img, .epro-select-private-img {
+    width: 45%;
+    display: inline-block;
+    position: relative;
+    margin-top: 80px;
+}
+
+.epro-select-private-img {
+    margin-left: 50px;
+}
+
+.epro-select-title {
+    font-family: Nunito;
+    font-size: 28px;
+    margin-left: 50px;
+    color: #eec680;
+}
+
+.epro-public-carousel img, .epro-private-carousel img {
+    min-width: 0;
+    max-width: 320px;
+    height: 260px;
+    margin: 30px auto;
+    border-radius: 25px;
+    border: solid 5px #eec680;
+}
+
+.epro-carousel-direct-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #eec680;
+    color: #404040;
+    padding-top: 8px;
+}
+
+.epro-select-add-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #aaa;
+    color: #404040;
+    padding-top: 8px;
+    text-align: center;
+    font-size: 23px;
+    transition-duration: 0.3s;
+    position: absolute;
+    right: 90px;
+    margin-bottom: 30px;
+}
+
+.epro-select-add-icon:hover {
+    transform: scale(1.2);
+    background-color: #ddd;
+}
+
+@media (max-width: 576px) {
+    .edit-profile-content {
+        width: 90%;
+    }
+    .epro-input-photo {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+    .epro-input-icon {
+        width: 30px;
+        height: 30px;
+        left: 195px;
+        font-size: 15px;
+        padding-top: 4px;
+    }
+    .epro-input-area {
+        width: 300px;
+        margin: auto;
+        position: relative;
+    }
+    .epro-input-area img {
+        width: 150px;
+        height: 150px;
+        margin-left: 0px;
+    }
+    .epro-input-info {
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 40px;
+        text-align: center;
+    }
+    .epro-input-name {
+        margin-bottom: 30px;
+    }
+    .epro-save-btn {
+        text-align: center;
+    }
+    .epro-save-btn button {
+        margin-left: 0;
+    }
+    .epro-input-name span {
+        margin-right: 10px;
+        font-size: 20px;
+    }
+    .epro-input-age span {
+        margin-right: 30px;
+        font-size: 20px;
+    }
+    .epro-input-info input {
+        width: 210px;
+    }
+    .epro-select-public-img, .epro-select-private-img {
+        width: 100%;
+        margin-top: 50px;
+    }
+    .epro-select-title {
+        font-size: 24px;
+        margin-left: 0px;
+    }
+    .epro-public-carousel img, .epro-private-carousel img {
+        min-width: 70%x;
+        max-width: 70%;
+        height: 190px;
+        border: solid 5px #eec680;
+    }
+    .epro-select-private-img {
+        margin-left: 0px;
+    }
+    .epro-select-add-icon {
+        width: 45px;
+        height: 45px;
+        color: #404040;
+        padding-top: 8px;
+        font-size: 20px;
+        right: 20px;
+        margin-bottom: 30px;
+    }
+    .epro-select-add-icon:hover {
+        transform: scale(1.1);
+    }
+    .epro-carousel-direct-icon {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background-color: #eec680;
+        color: #404040;
+        padding-top: 3px;
+    }
+    .epro-input-info-right {
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+    
+    .epro-input-info-left {
+        vertical-align: top;
+        margin-top: 20px;
+    }
+}
